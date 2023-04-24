@@ -1,29 +1,116 @@
-<div class="bg-cover h-screen w-screen" style="background: black; overflow-y: scroll;">
-  
-  <div class="bg-cover relative overflow-hidden h-screen flex flex-auto justify-center items-center relative">
-    <div class="font-semibold text-white gap-4 h-26">
-      <p>Hi I'm Abhishek</p>
+<div class="bg-cover h-screen w-screen" style="background: black">
+  <div
+    class="h-full bg-cover overflow-y-auto flex flex-auto justify-center items-center relative"
+  >
+    <div
+      class="animate-pulse font-semibold hover:shadow-xl hover:scale-110 transition duration-500 ease-in-out-500 text-white gap-4 h-26 cursor-pointer"
+      onclick="window.scrollTo(0,document.body.scrollHeight);"
+    >
+      <a href="#about">
+        <p>Hi I'm Abhishek</p>
+      </a>
+      <p class="flex flex-col">This is my portfolio</p>
     </div>
-    <div class="absolute bottom-0 w-full flex justify-center bg:cover bg-fixed justify-content:space-evenly items-center text-white h-26">
+  </div>
+  <div
+    id="about"
+    class="h-full bg-cover bottom-0 w-full flex justify-center bg:cover bg-fixed flex-auto justify-content:space-evenly items-center text-black h-26"
+    style="background: white"
+  >
+    <div
+      class="flex flex-auto flex-wrap h-full w-full bg:cover justify-content:space-evenly p-16"
+      style="background: white"
+    >
       <a href="https://github.com/ice-weasel">
-      <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
-      class="rounded-full h-16 w-16 object-cover shadow-lg hover:shadow-xl hover bg:-red hover:scale-110 transition duration-500 ease-in-out-500"
-      alt="Github"/>
-    </a>
-      <div class="ml-10 p-16">
-        <a href="https://www.linkedin.com/in/abhishek-raman-18b283227/">
-          <img
-            class="rounded-full h-24 w-24 object-cover shadow-lg hover:shadow-xl hover bg:-red hover:scale-110 transition duration-500 ease-in-out-500"
-           src = "https://static.vecteezy.com/system/resources/previews/018/930/587/original/linkedin-logo-linkedin-icon-transparent-free-png.png"
-            alt="LinkedIn"
-          />
-        </a>
+        <img
+          src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png"
+          class="rounded-full h-16 w-16 object-cover shadow-lg hover:shadow-xl hover bg:cover hover:scale-110 transition duration-500 ease-in-out-500"
+          style="background: whitesmoke"
+          alt="Github"
+        />
+      </a>
+
+      <div class="flex flex-auto flex-col flex-wrap" style="background: white">
+        <p
+          class="p-20 mb-18 flex font-bold text-4xl justify-center justify-content:space-evenly text-semibold"
+        >
+          Skills
+        </p>
+        <div class="flex flex-row">
+          <div
+            class="p-6 max-w-sm mx-auto gap-4 bg-white shadow-lg hover:shadow-xl hover bg:cover hover:scale-110 transition duration-500 ease-in-out-500 rounded-xl shadow-lg flex items-center space-x-4"
+          >
+            <div class="shrink-0">
+              <img
+                class="h-14 w-20"
+                src="https://logowik.com/content/uploads/images/731_java.jpg"
+                alt="Java"
+              />
+            </div>
+            <div>
+              <div class="text-xl font-medium text-black">Java</div>
+            </div>
+          </div>
+          <div
+            class="p-6 max-w-sm mx-auto gap-4 bg-white shadow-lg hover:shadow-xl hover bg:cover hover:scale-110 transition duration-500 ease-in-out-500 rounded-xl shadow-lg flex items-center space-x-4"
+          >
+            <div class="shrink-0">
+              <img
+                class="h-12 w-10"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
+                alt="Python"
+              />
+            </div>
+            <div>
+              <div class="text-xl font-medium text-black">Python</div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-row">
+          <div
+            class="p-6 max-w-sm mx-auto gap-4 bg-white shadow-lg hover:shadow-xl hover bg:cover hover:scale-110 transition duration-500 ease-in-out-500 rounded-xl shadow-lg flex items-center space-x-4"
+          >
+            <div class="shrink-0">
+              <img
+                class="h-12 w-10"
+                src="https://w7.pngwing.com/pngs/520/669/png-transparent-c-logo-c-programming-language-computer-icons-computer-programming-programming-miscellaneous-blue-trademark-thumbnail.png"
+                alt="C++"
+              />
+            </div>
+            <div>
+              <div class="text-xl font-medium text-black">C++</div>
+            </div>
+          </div>
+          <div
+            class="p-6 max-w-sm mx-auto gap-4 bg-white shadow-lg hover:shadow-xl hover bg:cover hover:scale-110 transition duration-500 ease-in-out-500 rounded-xl shadow-lg flex items-center space-x-4"
+          >
+            <div class="shrink-0">
+              <img
+                class="h-12 w-10"
+                src="https://cdn.freebiesupply.com/logos/large/2x/unity-69-logo-png-transparent.png"
+                alt="Unity"
+              />
+            </div>
+            <div>
+              <div class="text-xl font-medium text-black">Unity</div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="ml-7 p-8">
-        <p></p>
-      </div>
+    </div>
+
+    <div
+      class="flex flex-auto flex-wrap h-full w-full bg:cover justify-endw p-16"
+      style="background: #4078c0"
+    >
+      <a href="https://www.linkedin.com/in/abhishek-raman-18b283227/">
+        <img
+          class="rounded-full h-24 w-24 object-cover bg:cover shadow-lg hover:shadow-xl hover hover:scale-110 transition duration-500 ease-in-out-500"
+          src="https://static.vecteezy.com/system/resources/previews/018/930/587/original/linkedin-logo-linkedin-icon-transparent-free-png.png"
+          style="background: white"
+          alt="LinkedIn"
+        />
+      </a>
     </div>
   </div>
 </div>
-
-
